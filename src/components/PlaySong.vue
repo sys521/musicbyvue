@@ -1,7 +1,7 @@
 <template>
     <div id="playsong" v-bind:style="{backgroundImage:'url('+currentMusic.filter+')'}">
       <div class="pointer">
-        <img src="http://s3.music.126.net/m/s/img/needle.png?702cf6d95f29e2e594f53a3caab50e12" v-bind:class="{leave:!isplay}">
+        <img src="https://s3.music.126.net/m/s/img/needle.png?702cf6d95f29e2e594f53a3caab50e12" v-bind:class="{leave:!isplay}">
       </div>
       <div class="dsic">
         <div class="dsic-ct" >
@@ -11,8 +11,8 @@
           <svg class="icon" aria-hidden="true" v-if="!isplay" v-on:click="isplay=!isplay">
             <use xlink:href="#icon-pause"></use>
           </svg>
-          <img  class="dsic-circle" src="http://s3.music.126.net/m/s/img/disc.png?d3bdd1080a72129346aa0b4b4964b75f" v-bind:class="{pasue:!isplay}">
-          <img  class="dsic-light" src="http://s3.music.126.net/m/s/img/disc_light.png?2bb24f3fd11569809b817b4988f12bc7" >
+          <img  class="dsic-circle" src="https://s3.music.126.net/m/s/img/disc.png?d3bdd1080a72129346aa0b4b4964b75f" v-bind:class="{pasue:!isplay}">
+          <img  class="dsic-light" src="https://s3.music.126.net/m/s/img/disc_light.png?2bb24f3fd11569809b817b4988f12bc7" >
           <img class="dsic-photo" :src="currentMusic.cover" v-bind:class="{pasue:!isplay}">
         </div>
       </div>
